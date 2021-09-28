@@ -1,0 +1,103 @@
+body {
+    background:linear-gradient(236.85deg, #020e1f 27.26%, #10553e 96.03%);
+    font-family: 'Gemunu Libre', sans-serif;
+
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow:  6px 6px 6px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perf{
+    display: flex;
+    padding: 20px;
+
+}
+
+
+.foto {
+    max-width: 160px;
+    border-radius: 460px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+    margin-left: 20px;
+    color: #020e1f;
+}
+
+.titulo h1 {
+    font-weight: 700;
+}
+
+
+
+.button{
+    padding: 8px 16px;
+    align-self: flex-end;
+    background-color: white;
+    border-radius: 100px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    background-color: #093828;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42) ;
+    color: white;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    
+
+}
+.projetos-titulo {
+    list-style: none;
+    font-size: 36px;
+    font-weight: 700;
+}
+.items{
+    list-style-type: none;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.items a{
+    text-decoration: none;
+    color: white;
+}
+
+.dark{
+    background:linear-gradient(236.85deg, #12325f 27.26%, #1d664e 96.03%);
+}
+.dark .container {
+    background-color: #333439;
+}
+.dark .titulo {
+    color: white;
+}
+
+.dark .projetos {
+    background-color: rgb(14, 83, 83);
+}
+
+.dark .tema button{
+    background-color: #333439;
+    color:white;
+
+}
